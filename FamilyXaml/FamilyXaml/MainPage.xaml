@@ -3,9 +3,36 @@
              xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
              xmlns:local="clr-namespace:FamilyXaml"
              x:Class="FamilyXaml.MainPage">
+<ContentPage.Title>Family XAML</ContentPage.Title>
 
-  <Label Text="Welcome to Xamarin Forms!"
-           VerticalOptions="Center"
-           HorizontalOptions="Center" />
+  <ScrollView Orientation="Both">
+  
+    <StackLayout BackgroundColor ="Yellow" Orientation="Vertical">  
+  
+    <Label Text="Father"
+           FontSize="60"
+           TextColor="Black"/>
+      <Label Text="Mother"
+           FontSize="50"
+           TextColor="Maroon"/>
+      <Label Text="Brother"
+           FontSize="60"
+           TextColor="Red"/>
+           
+     <Label Text="Sister"
+           FontSize="40"
+           TextColor="Purple"/>
+           
+             
+ <Label Text="Uncle"
+           FontSize="50"
+           TextColor="Green"/>
+           
+      
+
+
+      </StackLayout>
+    </ScrollView>
+  
 
 </ContentPage>
