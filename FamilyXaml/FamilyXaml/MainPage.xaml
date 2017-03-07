@@ -7,26 +7,41 @@
 
   <ScrollView Orientation="Both">
   
-    <StackLayout BackgroundColor ="Yellow" Orientation="Vertical">  
-  
-    <Label Text="Father"
+    <StackLayout BackgroundColor ="Yellow" Orientation="Vertical">
+    <Label Text="Father Hiob Tata Quite tall, friendly, provider"
            FontSize="60"
            TextColor="Black"/>
-      <Label Text="Mother"
+      <Image x:Name="image1"
+ HorizontalOptions="Center"
+ VerticalOptions="CenterAndExpand" />
+      
+      <Label Text="Mother Sarah Angwi,Peacefull,Hardworking,Friendly God fearing"
            FontSize="50"
            TextColor="Maroon"/>
+           <Image x:Name="image2"
+ HorizontalOptions="Center"
+ VerticalOptions="CenterAndExpand" />
       <Label Text="Brother"
            FontSize="60"
            TextColor="Red"/>
+      <Image x:Name="image3"
+ HorizontalOptions="Center"
+ VerticalOptions="CenterAndExpand" />
            
-     <Label Text="Sister"
+     <Label Text="Sister Constance etc"
            FontSize="40"
            TextColor="Purple"/>
+      <Image x:Name="image4"
+ HorizontalOptions="Center"
+ VerticalOptions="CenterAndExpand" />
            
              
- <Label Text="Uncle"
+ <Label Text="Uncle Ernest,Robert"
            FontSize="50"
            TextColor="Green"/>
+      <Image x:Name="image5"
+ HorizontalOptions="Center"
+ VerticalOptions="CenterAndExpand" />
            
       
 
