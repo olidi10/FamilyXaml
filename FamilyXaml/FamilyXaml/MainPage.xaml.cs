@@ -4,7 +4,7 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 using Xamarin.Forms;
-//using Xamarin.Forms.Xaml;
+using Xamarin.Forms.Xaml;
 
 namespace FamilyXaml
 {
@@ -15,7 +15,13 @@ namespace FamilyXaml
         {
             InitializeComponent();
         }
-
+        //public ImageSource 
+            
+        //Image = new FamilyXaml.ImageSource
+        //{
+        //    Source FamilyXaml.ImageSource.FromMultiResource(),
+        //};
+           
         //[ContentProperty("Source")]
         //public class ImageResourceExtension : IMarkupExtension
         //{
